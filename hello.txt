@@ -3,7 +3,6 @@
 
 
 
-
 funcDeclare 函数的完整声明
 funcEffect 函数的作用或用途
 paramsExplain 参数说明
