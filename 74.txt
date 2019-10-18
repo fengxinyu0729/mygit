@@ -1,0 +1,5 @@
+配置这3个就可以：
+ad_query[unitid]-->unitID
+ad_query[rg_solutionid]-->soluID
+ad_query[datatime]-->periodStr
+注意：穿透时，用户需要业务方案报表的权限

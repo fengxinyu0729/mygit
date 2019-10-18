@@ -1,0 +1,1 @@
+在启动文件中增加参数-Dout.redirect=true，然后重启，work文件夹下有server.log；注：startup窗口不显示任何内容，但不能关闭。

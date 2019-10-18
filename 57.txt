@@ -1,0 +1,3 @@
+跨单位取数的 FetchOtherUnitDatas（）
+如：KB_CX[4,3]FetchOtherUnitDatas("7482040977","[KB15_QYBB01]")
+或者浮动用Qdcopy函数 固定用Qdpull函数

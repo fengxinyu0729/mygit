@@ -1,0 +1,10 @@
+select c.直接上级单位代码, c.直接上级名称, d.本机单位代码, d.本机单位名称
+  from (select a.stdcode as 直接上级单位代码, a.stdname as 直接上级名称
+          from md_org a
+         where recid =
+               (select substr(parents, -66, 32)
+                  from md_org
+                 where recid = '要查询的单位recid')) c,
+       (select b.stdcode as 本机单位代码, b.stdname as 本机单位名称
+          from md_org b
+         where recid = '要查询的单位recid') d

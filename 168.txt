@@ -1,0 +1,1 @@
+window server 里面浏览器 开启了安全模式，flash 播放器 要单独安装flashplayer

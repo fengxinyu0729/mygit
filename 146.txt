@@ -1,0 +1,1 @@
+jre1.6.0_45问题，启动参数增加， -Djava.awt.headless=true 或者换jre7u51，

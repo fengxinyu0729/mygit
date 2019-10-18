@@ -1,0 +1,9 @@
+define query ad_query(@unitid guid)
+begin
+  select t.stdcode,t.stdname,n.hs from md_org as t,(
+      select m1.recid ,count(m1.recid) as hs from md_org as m1,md_org as m2
+       where (case when len(m1.parents)>32 then substr(m1.parents,-33,16) end)=to_char(@unitid)
+         and m2.parents like '%'+ to_char(m1.recid) +'%'
+       --and substr(m2.parents,-16) <> to_char(m1.recid )--去除本单位
+    group by m1.recid) as n
+  where t.recid=n.recid

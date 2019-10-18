@@ -1,0 +1,4 @@
+select t.recid as unitid 
+      from md_org as t 
+      where to_char(t.parents) like '%' + to_char(@zzjgdm) + '%'
+参数设置为(@zzjgdm guid) 返回recid

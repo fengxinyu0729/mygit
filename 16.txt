@@ -1,0 +1,4 @@
+重码（代码一样或大小写不一样其他一样）单位导致，查看是否有重码并处理
+select t.stdcode from md_org t group by t.stdcode having count(t.stdcode) > 1;
+
+SELECT * FROM MD_ORG A , MD_ORG B WHERE A.STDCODE <> B.stdcode and LOWER(A.STDCODE ) = LOWER(B.STDCODE)

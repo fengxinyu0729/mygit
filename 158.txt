@@ -1,0 +1,2 @@
+如果当前单位代码非9位，需要截取为9位
+PG_SJTB_FDB[3,5]=GetUnitZbValue(R$([DWDM],9),"JB_QYMC","GZWCQ","000000")

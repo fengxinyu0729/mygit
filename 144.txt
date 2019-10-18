@@ -1,0 +1,2 @@
+这个启动参数加上，-Dcom.jiuqi.dna.bap.print.native=true
+用这个打印插件， 火狐，谷歌，IE 通吃， 报表 单据 都行 

@@ -1,0 +1,1 @@
+b0702_msgfeedback，清空这个表数据，页面即消失不用重启服务。或者把deletesign字段置为0

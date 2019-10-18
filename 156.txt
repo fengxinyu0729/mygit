@@ -1,0 +1,1 @@
+有脏数据，自己对自己出资：select (select stdcode from md_org where recid = a.unitid) as qydm, a.FD_CZRZZJGDM, a.fd_czrmc from CQ_CZFD a  where  a.FD_CZRZZJGDM = (select stdcode from md_org where recid = a.unitid)

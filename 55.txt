@@ -1,0 +1,1 @@
+!AGFIsContainValue("zb1","$zb1$","SELFSOLUTIONID")，把指标1替换成年度指标，并且做成基础数据，里面含年度。新建项目配置》指标选择中把zb1选上。

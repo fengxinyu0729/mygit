@@ -1,0 +1,1 @@
+DB中的NLS_CHARACTERSET的值和环境变量中的NLS_LANG值不一样，会导致这个问题~,用数据泵导出即可。

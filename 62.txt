@@ -1,0 +1,4 @@
+，打开这个网址 http://ueditor.baidu.com/website/umeditor.html
+然后开始编辑内容 ，可以制作各种格式
+然后点击HTML这个按钮，下面文档就变成HTML了
+把下面内容复制后，放到potlet中自定义HTML嵌入组件

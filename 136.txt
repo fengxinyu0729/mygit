@@ -1,0 +1,1 @@
+XY布局登录页，主logo，com.jiuqi.va.portal.ui.LogoImageGroup

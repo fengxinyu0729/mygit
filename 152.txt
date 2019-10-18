@@ -1,0 +1,3 @@
+periodOffset（时期偏移）：从哪里开始取0当前期-1上一期
+srcPeriodType（时期类型）：取的周期类型如N年Y月
+periodCount（时期数）：取几期，如1取1期，2取两期。

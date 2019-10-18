@@ -1,0 +1,3 @@
+如果是脏数据，删除即可。
+DELETE  from md_org t where t.stdcode is null or t.stdname is null;
+commit;
