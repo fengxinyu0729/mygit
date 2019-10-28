@@ -1,0 +1,3 @@
+附件支持doc等的文件预览，需要配置openoffice，安装插件
+系统选项配置管理》openoffice             
+系统选项设置》openoffice》配置

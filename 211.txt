@@ -1,0 +1,1 @@
+conf配置文件中添加<attr id='interval' name='坐标轴刻度的显示间隔' type='text'  tip="0强制显示所有标签，设置N，表示【隔N个标签显示一个标签】以此类推"/>添加在<multivalue id='xAxis'  .....>.........<componnent id="axisLabel" >下

@@ -1,0 +1,1 @@
+后台主页面，状态栏信息勾选隐藏版权，如果没有，则需要替换jar包，替换app\com.jiuqi.application,vacomm\目录下的com.jiuqi.va.portal10.0.0.jar包

@@ -1,0 +1,1 @@
+JDK1.7需要增加启动参数-Djava.util.Arrays.useLegacyMergeSort=true

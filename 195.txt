@@ -1,0 +1,9 @@
+违反唯一性约束了，版本里没勾这个导致recid和objectid不一致，目前是要添加的单位和已经存在的单位recid一样了。不一样单位如下：
+SELECT * FROM md_org_jrjsdb J, md_org t 
+ WHERE J.RECID = t.recid and t.STDCODE <> j.STDCODE
+1、先在版本里删除所有这些单位（删除之前记录这些单位）
+SELECT * FROM md_org_jrjsdb J, md_org t 
+ WHERE J.RECID = t.recid and t.STDCODE <> j.STDCODE
+2、基础数据管理里面找到md_org_jrjsdb，点设计，把可选非末级勾选上。
+3、重启服务
+4、然后把第一步记录的那些单位重新添加上。
