@@ -1,2 +1,2 @@
-增加启动参数，重启服务
--Dcom.jiuqi.dna.bap.datastructure.boot.ignore.error=true
+重定向输出startup的日志，startup不在输出日志，但不能关闭。增加启动参数：
+-Dout.redirect=true

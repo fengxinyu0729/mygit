@@ -1,1 +1,2 @@
-改了数字按回车即可生效，指定打印行业一样。
+增加启动参数，重启服务
+-Dcom.jiuqi.dna.bap.datastructure.boot.ignore.error=true

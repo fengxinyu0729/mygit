@@ -1,1 +1,1 @@
-JDK1.7需要增加启动参数-Djava.util.Arrays.useLegacyMergeSort=true
+主维度指标设置中，默认按代码排序去掉。

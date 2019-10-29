@@ -1,6 +1,1 @@
-‘--以MD_ORG_WZBZDQY为例
-select *  from md_multorgtypes where code = 'WZBZDQY'; 
-select * from MD_ORG_VERSION where code = 'WZBZDQY';
---前两句中的code用是组织机构类型维护中 相应的组织标识 不带前缀MD_ORG_
-select * from b0101_mainbody where mbname = 'MD_ORG_WZBZDQY';
-select * from  core_metadata where name = 'MD_ORG_WZBZDQY';
+需要删除“合计”及合计行指标，保存成功后，再次检查均可通过。再添加上就可以了

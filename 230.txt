@@ -1,1 +1,1 @@
-添加用户对当前单位写的权限
+ddb的表空间大小不能超过4g，超过需要用数据库的备份方式备份，如oracle用exp等方式，查询表空间大小：Select Tablespace_Name,Sum(bytes)/1024/1024 From Dba_Segments Group By Tablespace_Name order by Sum(bytes)/1024/1024 desc

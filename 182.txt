@@ -1,4 +1,2 @@
-查询脏数据：以2个版本为例：
-SELECT T.RECID, T.STDCODE, T.STDNAME, 'MD_ORG_JDKBJ    'FROM MD_ORG_JDKBJ     T WHERE T.RECID NOT IN (SELECT M.RECID FROM MD_ORG M) UNION ALL
-SELECT T.RECID, T.STDCODE, T.STDNAME, 'MD_ORG_KS    'FROM MD_ORG_KS      T WHERE T.RECID NOT IN (SELECT M.RECID FROM MD_ORG M)
-删除各版本脏数据，重启服务即可DELETE  FROM MD_ORG_JDKBJ    T WHERE T.RECID NOT IN (SELECT M.RECID FROM MD_ORG M) ;
+组织机构代码和同步匹配代码不一致（2单位syncode用了1单位的stdcode），同步匹配代码与其他单位组织机构代码一致了，变成一致。1.0、2.0都要处理。
+update md_org t set syncode = stdcode where t.stdcode <> t.syncode;commit;重启服务，再数据导出导入。

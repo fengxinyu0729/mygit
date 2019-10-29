@@ -1,1 +1,1 @@
-找不到DSM中某个类，可能是人为动过dsm，更换dsm（如3.7，www.97dna.com可下载）即可。
+JDK1.7需要增加启动参数-Djava.util.Arrays.useLegacyMergeSort=true

@@ -1,2 +1,4 @@
-组织机构代码和同步匹配代码不一致（2单位syncode用了1单位的stdcode），同步匹配代码与其他单位组织机构代码一致了，变成一致。1.0、2.0都要处理。
-update md_org t set syncode = stdcode where t.stdcode <> t.syncode;commit;重启服务，再数据导出导入。
+三种解决方法（一般是1和3的问题）：
+1、数据库问题，重启数据库服务解决。
+2、服务部署的\app\com.jiuqi.dna.srvmgr路径下的slf4j-jdk14-1.6.6.jar删掉，以后起服务就不会有这个问题了
+3、检查游标，调大。

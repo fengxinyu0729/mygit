@@ -1,1 +1,3 @@
-单据指标关联枚举是GUID型，需要取枚举值的recid
+程序缺陷，更新程序即可或者执行sql
+update SM_logIN_RECORD set isfirstlogin=1;
+commit;
